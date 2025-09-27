@@ -1,0 +1,76 @@
+/*Heading*/
+
+.Head {
+    color: white;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #333;
+    padding: 10px 20px;
+    
+}
+
+/* Logo + Text */
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 60px;   /* Adjust logo size */
+    margin-right: 10px;
+}
+.logo h1 {
+    font-size: 22px;  /* Adjust font size here */
+    color: rgba(239, 245, 245, 0.808);
+    margin: 0;
+}
+
+/* Navigation Menu */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+}
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Search Box */
+.search-box {
+    display: flex;
+    align-items: center;
+}
+.search-box input {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px 0 0 3px;
+}
+.search-box button {
+    padding: 6px 12px;
+    border: none;
+    background: #28a745;
+    color: white;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+}
+.search-box button i {
+    font-size: 14px;
+}
+
+/* Normal link style */
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 12px;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.nav-links li a:hover {
+    color: #28a745;              /* Text turns green */
+    border-bottom: 2px solid #28a745; /* Underline on hover */
+}
